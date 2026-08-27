@@ -1,0 +1,35 @@
+# Environnements
+.venv/
+venv/
+
+# IDE
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / config locale
+.env
+*.env
+secrets/
+credentials.json
+service_account.json
+*.key
+
+# Fichiers de travail perso (lab)
+CHEATSHEET.md
+IDEAS.md
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data / logs
+*.log
+data/
+logs/
